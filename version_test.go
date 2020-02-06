@@ -4,7 +4,7 @@ import "testing"
 
 func TestVersion(t *testing.T) {
 	v := Version()
-	if v != "v2.1.2" {
-		t.Fatal("version mismatch, expected v2.1.2 got", v)
+	if v != "v3.0.0-beta" {
+		t.Fatal("version mismatch, expected v3.0.0-beta got", v)
 	}
 }
